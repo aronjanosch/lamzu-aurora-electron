@@ -43,6 +43,11 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     if: startsWith(github.ref, 'refs/tags/v')
+    permissions:
+      contents: write
+      packages: write
+      discussions: write
+      pull-requests: read
 
     steps:
       - name: Checkout code
