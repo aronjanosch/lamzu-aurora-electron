@@ -12,10 +12,10 @@
     "scripts": {
         "start": "electron .",
         "dev": "NODE_ENV=development electron .",
-        "build": "electron-builder",
-        "build:linux": "electron-builder --linux",
-        "build:win": "electron-builder --win",
-        "build:mac": "electron-builder --mac",
+        "build": "electron-builder --publish=never",
+        "build:linux": "electron-builder --linux --publish=never",
+        "build:win": "electron-builder --win --publish=never",
+        "build:mac": "electron-builder --mac --publish=never",
         "dist": "electron-builder --publish=never",
         "pack": "electron-builder --dir",
         "postinstall": "electron-builder install-app-deps"
@@ -35,6 +35,7 @@
             "assets/**/*",
             "node_modules/**/*"
         ],
+        "publish": null,
         "linux": {
             "target": [
                 {
@@ -87,7 +88,6 @@
         "mouse",
         "configuration",
         "gaming",
-        "electron",
         "electron"
     ]
 }
