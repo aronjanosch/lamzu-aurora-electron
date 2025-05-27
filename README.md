@@ -1,4 +1,4 @@
-# Lamzu Aurora Dekstop
+# Lamzu Aurora Electron
 
 A standalone desktop application for configuring Lamzu mice without needing to open a web browser. This Electron-based app wraps the official Lamzu configuration website with full WebHID/WebUSB support for device connectivity.
 
@@ -22,8 +22,8 @@ A standalone desktop application for configuring Lamzu mice without needing to o
 
 ### From Source
 ```bash
-git clone https://github.com/aronjanosch/lamzu-aurora-dekstop.git
-cd lamzu-aurora-desktop
+git clone https://github.com/aronjanosch/lamzu-aurora-electron.git
+cd lamzu-aurora-electron
 npm install
 npm start
 ```
@@ -36,8 +36,8 @@ npm start
 
 ### Quick Start
 ```bash
-git clone https://github.com/aronjanosch/lamzu-aurora-dekstop.git
-cd lamzu-aurora-desktop
+git clone https://github.com/aronjanosch/lamzu-aurora-electron.git
+cd lamzu-aurora-electron
 npm install
 npm run dev
 ```

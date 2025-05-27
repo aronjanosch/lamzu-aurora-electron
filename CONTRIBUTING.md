@@ -1,6 +1,6 @@
-# Contributing to Lamzu Aurora Desktop
+# Contributing to Lamzu Aurora Electron
 
-Thank you for your interest in contributing to Lamzu Aurora Desktop! This guide will help you get started.
+Thank you for your interest in contributing to Lamzu Aurora Electron! This guide will help you get started.
 
 ## Development Setup
 
@@ -13,8 +13,8 @@ Thank you for your interest in contributing to Lamzu Aurora Desktop! This guide 
 1. Fork the repository
 2. Clone your fork:
    ```bash
-   git clone https://github.com/your-username/lamzu-aurora-dekstop.git
-   cd lamzu-aurora-desktop
+   git clone https://github.com/your-username/lamzu-aurora-electron.git
+   cd lamzu-aurora-electron
    ```
 3. Install dependencies:
    ```bash
